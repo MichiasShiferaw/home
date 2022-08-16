@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MichiasShiferaw/home.git/static/css/main.073c9b0a.css",
+    "main.js": "/MichiasShiferaw/home.git/static/js/main.eef705d7.js",
+    "static/js/787.71e672d5.chunk.js": "/MichiasShiferaw/home.git/static/js/787.71e672d5.chunk.js",
+    "static/media/logo.svg": "/MichiasShiferaw/home.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/MichiasShiferaw/home.git/index.html",
+    "main.073c9b0a.css.map": "/MichiasShiferaw/home.git/static/css/main.073c9b0a.css.map",
+    "main.eef705d7.js.map": "/MichiasShiferaw/home.git/static/js/main.eef705d7.js.map",
+    "787.71e672d5.chunk.js.map": "/MichiasShiferaw/home.git/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.eef705d7.js"
+  ]
+}
