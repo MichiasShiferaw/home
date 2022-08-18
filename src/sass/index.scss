@@ -1,23 +1,9 @@
-// variables & functions
-@import 'functions';
-@import 'variables';
+.test{
+    margin: 10px;
+}
 
-// base & layout
-@import 'base';
-@import 'breakpoints';
+$secondary: indigo;
+$base-padding: 1rem;
+$base-border-thickness: 3px;
 
-
-//colors
-@import 'colors';
-
-
-//components (button,card,navbar)
-@import '/src/Components/card';
-@import '/src/Components/button';
-
-
-
-//utilities (marigin, padding, opactiy, etc)
-@import 'utilities';
-
-
+@import '/src/michiaspackage';
