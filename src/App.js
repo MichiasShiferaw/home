@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Modal from './Components/Modal/modal';
 
 function App() {
   return (
@@ -51,10 +52,35 @@ function App() {
     <span class="bg-primary-light-8 text-white">primary light 8</span> |
 
 
+    <br/>
+    <a href='#/' className='text-primary text-hover-orange-light-1'>Hover Me</a>
+
+        <hr class="mt-4 mb-4"/>
 
 {/* font sizes */}
+    <h2 class="mb-2">Font Sizes</h2>
+    <div class="font-sm">this is small font</div>
+    <div class="font-md">this is medium font</div>
+    <div class="font-lg">this is large font</div>
+    <div class="font-xl">this is extra large font</div>
+    <div class="font-xxl">this is extra, extra large font</div>
 
+    <hr class="mt-4 mb-4"/>
 {/* buttons */}
+
+<h2>Buttons</h2>
+    <a href="#/" class="btn">default btn</a>
+    <a href="#/" class="btn-primary text-white">click me</a>
+    <a href="#/" class="btn-secondary text-white">click me</a>
+    <a href="#/" class="btn-error text-white">click me</a>
+    <a href="#/" class="btn-info">click me</a>
+    <a href="#/" class="btn-outlined-purple text-purple text-hover-white">click me</a>
+    <a href="#/" class="btn-outlined-orange text-orange text-hover-white">click me</a>
+    <a href="#/" class="btn-complement-purple">click me</a>
+    <a href="#/" class="btn-complement-primary">click me</a>
+
+    <hr class="mt-4 mb-4"/>
+
 
 {/* cards */}
 <h2>Card</h2>
@@ -64,11 +90,15 @@ function App() {
 </div>
 
 {/* grid system */}
+<div class="responsive-test">changing colors</div>
 
+<hr class="mt-4 mb-4"/>
 {/* utilities */}
+<hr class="mt-4 mb-4"/>
 
 
       </header>
+      {/* <Modal/> */}
     </div>
   );
 }
