@@ -27,3 +27,19 @@ $val in $colors {
         background-color: $val;
     }
 }
+
+.footer{
+    @extend %flex-layout;
+    padding: $base-padding $base-padding * 2;
+    box-shadow: $base-box-shadow;
+    
+    
+        .site-title {
+            font-size: $font-size-xl;
+        }
+    .container {
+            @extend %flex-layout;
+            border-top: 2px solid black;
+        }
+
+}
