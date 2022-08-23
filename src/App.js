@@ -2,7 +2,7 @@ import './App.css';
 import Modal from './Components/Modal/modal';
 import Sidebar from './Components/Sidebar1/Sidebar';
 import { ProfileInfo } from './Components/Sidebar1/SidebarData';
-import logo from './avatar.svg';
+import logo from './Portrait1.png';
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
   {/* <!-- intro --> */}
   <div className="container mt-5">
     <div className="row justify-center">
-      <div className="col-12-xs col-5-md">
+      <div className="col-12-xs col-9-md">
         <p className="text-gray mb-2">Hi</p>
         <h2>
           
@@ -41,7 +41,7 @@ function App() {
         <p className="text-gray mt-2 mb-3">Welcome to my Website!</p>
         <a href="#work" className="btn-outlined-secondary text-secondary text-hover-white">View My Work</a>
       </div>
-      <div className="col-12-xs col-5-md">
+      <div id="mylogo1"className="col-12-xs col- col-3-md ">
         <img src={logo} alt=""/>
       </div>
     </div>

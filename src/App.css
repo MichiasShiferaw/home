@@ -14,7 +14,11 @@
   }
 }
 
-
+@media (max-width: 720px) {
+#mylogo1{
+  padding-top: 3rem;
+}
+}
 .App-link {
   color: #61dafb;
 }
@@ -36,19 +40,19 @@ main {
   /* width: calc(100vw - 250px); */
   height: 100%;
   overflow: auto;
-  background-color: #ffec63;
+  background-color: #ffcba4;
     background-image: linear-gradient(45deg,
-        #ffd966 25%,
+        #fdd5b1 25%,
         transparent 25%,
         transparent 75%,
-        #ffd966 75%,
-        #ffd966),
+        #fdd5b1 75%,
+        #fdd5b1),
       linear-gradient(-45deg,
-        #ffd966 25%,
+        #fdd5b1 25%,
         transparent 25%,
         transparent 75%,
-        #ffd966 75%,
-        #ffd966);
+        #fdd5b1 75%,
+        #fdd5b1);
     background-size: 60px 60px;
     background-position: 0 0;
     animation: slide 4s infinite linear;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { SidebarData,ProfileInfo } from './SidebarData';
-import logo from '../../avatar.svg';
+import logo from '../../Portrait2.png';
 
 
 const Sidebar=({children})=> {
@@ -31,7 +31,7 @@ const Sidebar=({children})=> {
     </div>
     <hr />
     <div>
-      <img className="logo1 pt-2 pb-1" src={logo} />
+      <img className="logo1 pt-2 pb-1" src={logo} height={175} />
       <h2
         style={{
           display: isOpen ? "block" : "none",
@@ -42,7 +42,7 @@ const Sidebar=({children})=> {
         Michias Shiferaw
       </h2>
     </div>
-    <ul className="SidebarList">
+    <ul className="SidebarList text-white">
       {SidebarData.map((val, key) => {
         return (
           <li
