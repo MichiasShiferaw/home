@@ -7,10 +7,12 @@
     border: $base-border-thickness solid#ddd;
     box-shadow: $base-box-shadow;
     border-radius: math.div($base-border-radius, 4);
+    min-height: 100%;
     .card-title{
         font-size: $font-size-xl;
         padding-bottom: $base-padding;
         font-weight: bold;
+        line-height: 5.5vh;
     }
 
     .card-body{

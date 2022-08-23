@@ -15,8 +15,9 @@
 }
 
 .logo1{
-  width: 70%;
+  width: 50%;
   height: auto;
+  padding-top: 1rem;
 }
 
 @media (max-width: 720px) {
