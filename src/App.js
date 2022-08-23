@@ -11,7 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
        <p>Prep for Github Website</p> */}
 
-  <nav className="navbar justify-between bg-gray">
+  {/* <nav className="navbar justify-between bg-gray">
     <div className="container">
       <h1 className="site-title">Michias Shiferaw</h1>
       <ul className="display-f">
@@ -20,7 +20,7 @@ function App() {
         <li className="ml-1 text-hover-secondary"><a href="#contact">Contact</a></li>
       </ul>
     </div>
-  </nav> 
+  </nav>  */}
 <Sidebar>
 {/* colors */}
  {/* <!-- navbar --> */}

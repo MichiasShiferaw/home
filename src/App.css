@@ -14,6 +14,11 @@
   }
 }
 
+.logo1{
+  width: 70%;
+  height: auto;
+}
+
 @media (max-width: 720px) {
 #mylogo1{
   padding-top: 3rem;
@@ -35,6 +40,7 @@
 
 
 main {
+  --val1:#fdd5b1;
    width: 100%; 
   padding: 20px;
   /* width: calc(100vw - 250px); */

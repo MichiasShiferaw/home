@@ -31,7 +31,7 @@ const Sidebar=({children})=> {
     </div>
     <hr />
     <div>
-      <img className="logo1 pt-2 pb-1" src={logo} height={175} />
+      <img className="logo1 pt-2 pb-1 " src={logo} />
       <h2
         style={{
           display: isOpen ? "block" : "none",
@@ -63,7 +63,7 @@ const Sidebar=({children})=> {
       })}
     </ul>
 
-        <ul style={{ display: isOpen ? "flex" : "block" }} className='myLogo pt-3'>
+        <ul style={{ display: isOpen ? "flex" : "block" }} className='myLogo'>
       {ProfileInfo.map((val, key) => {
         return (
           <li
