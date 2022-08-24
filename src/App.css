@@ -15,7 +15,7 @@
 }
 
 .logo1{
-  width: 50%;
+  width: 60%;
   height: auto;
   padding-top: 1rem;
 }
@@ -37,7 +37,6 @@
     transform: rotate(360deg);
   }
 }
-
 
 
 main {
@@ -72,4 +71,9 @@ main {
   to {
     background-position: -120px 60px;
   }
+}
+
+.card-cover {
+  overflow: hidden;
+  line-height: 1rem;
 }

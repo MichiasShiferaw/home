@@ -23,8 +23,17 @@
         }
     }
 
+    hr.border{
+        // height: 0.4rem;
+        border-top:3px solid white;
+    }
+
     .h-100{
         height: 100% !important;
+    }
+
+    .seemore{
+        align-items: center;
     }
 
     &:hover {

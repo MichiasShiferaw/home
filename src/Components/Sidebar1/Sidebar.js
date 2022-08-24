@@ -4,8 +4,15 @@ import logo from '../../Portrait2.png';
 
 
 const Sidebar=({children})=> {
+  var current="/home";
     const[isOpen ,setIsOpen] = useState(false);
+    const [activeId, setActiveId] = useState();
     const toggle = () => setIsOpen (!isOpen);
+
+    const someFunct=(name1)=> {
+      console.log(name1);
+       this.setState({active:name1})
+    }
   return (
 <div style={{ display: "flex", textAlign: "center" }}>
   <div style={{ width: isOpen ? "250px" : "50px" }} className="Sidebar">
@@ -48,10 +55,11 @@ const Sidebar=({children})=> {
           <li
             className="row font-md"
             key={key}
-            id={window.location.pathname == val.link ? "active" : ""}
-            onClick={() => {
-              window.location.pathname = val.link;
-            }}
+
+            id={activeId===val.title?"active":""}
+            onClick={() => setActiveId(val.title)}
+              // console.log(val.link);
+            // }}
           >
             <div id="icon">{val.icon}</div>
             <div style={{ display: isOpen ? "block" : "none" }} id="title">
