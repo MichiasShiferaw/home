@@ -27,7 +27,7 @@ export const SchoolData=[
         location:"Ontario, Canada",
         institution:"Mother Tersea",
 
-    },
+    }
 
 
 ]

@@ -20,6 +20,15 @@
   padding-top: 1rem;
 }
 
+.logo2 {
+  width: 60%;
+  height: auto;
+  padding-top: 25px;
+}
+
+#about .container {
+  border-radius: 1rem;
+}
 @media (max-width: 720px) {
 #mylogo1{
   padding-top: 3rem;

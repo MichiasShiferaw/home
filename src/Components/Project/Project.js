@@ -8,26 +8,27 @@ import { ProjectData } from './ProjectData';
 function Work() {
   // Vanilla.
   return (
-     <section id="work" className="mt-5">
+     <section id="Project" className="mt-2">
     <div className="container">
-      <h2 className="mb-2">My Work</h2>
+      <h2 className="mb-2 text-start">My Project</h2>
       <div className="row gap-2">
         {ProjectData.map((val,key)=>{
           return(
           <div key={key} className="col-12-xs col-6-md col-4-lg">
-          <div className="card h-100 p-0 bg-info">
-            <h3 className="card-title m-1 mb-0">
+          <div className="card p-0 bg-green">
+            <span className="badge-orange badge1 text-center text-white ml-1">new</span>
+            <h3 className="card-title m-1 mb-0 mt-0">
               {val.title}
             </h3>
-            <span className="badge-orange text-white ml-1">new</span>
+            
             <img src="/img/mario.png" alt=""/>
             <p className="m-1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam, hic!</p>
-            <hr className='border'/>
-            <div className='display-f mt-auto justify-space-between'>
-              <div className='mr-auto'>
+            {/* <hr className='border'/> */}
+            <div className='card-footer display-f mt-auto justify-space-between'>
+              <div className='mr-auto mt-auto text-muted'>
                 {val.tools.map((val1,key1)=>{
                   return(
-                    <img src={val1} key={key1} alt={val1} width="32" height="32" title={val1}/>
+                    <img src="./IMG/bootstrap1.png" key={key1} alt={val1} width="32" height="32" title={val1}/>
                   )
                 })}
                               {/* <img src={Bootstrap} alt="Bootstrap" width="32" height="32" title='Bootstrap 5'/>

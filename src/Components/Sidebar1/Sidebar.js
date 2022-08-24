@@ -1,18 +1,51 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import { SidebarData,ProfileInfo } from './SidebarData';
 import logo from '../../Portrait2.png';
+import Work from '../Project/Project';
 
 
 const Sidebar=({children})=> {
-  var current="/home";
     const[isOpen ,setIsOpen] = useState(false);
     const [activeId, setActiveId] = useState();
     const toggle = () => setIsOpen (!isOpen);
+    const Home = useRef(null);
+  const Project = useRef(null);
+  const Code = useRef(null);
+  const Contact = useRef(null);
 
-    const someFunct=(name1)=> {
-      console.log(name1);
-       this.setState({active:name1})
+  
+  const scrollToSection = (elementRef) => {
+    window.scrollTo({
+      top: elementRef.current.offsetTop,
+      behavior: "smooth",
+    });
+  };
+
+    const change=()=>{
+      console.log(activeId);
+
     }
+    const tester=(val1)=>{
+      setActiveId(val1);
+      // {scrollToSection(Home)}
+      // ref.curree
+      // // console.log(val1);
+      // if (val1=="Project"){
+      //   // console.log('Project');
+      // }else if (val1==="Code"){
+      //   // console.log('Code');
+      //   <Work/>
+      // }else if (val1==="Contact"){
+      //   // console.log('Contact');
+
+      // }else{
+        
+
+      // }
+      // change();
+
+    }
+
   return (
 <div style={{ display: "flex", textAlign: "center" }}>
   <div style={{ width: isOpen ? "250px" : "50px" }} className="Sidebar">
@@ -57,14 +90,15 @@ const Sidebar=({children})=> {
             key={key}
 
             id={activeId===val.title?"active":""}
-            onClick={() => setActiveId(val.title)}
+            onClick={() => tester(val.title)}
               // console.log(val.link);
             // }}
-          >
+          ><a className="row" href={`#${val.title}`}>
             <div id="icon">{val.icon}</div>
             <div style={{ display: isOpen ? "block" : "none" }} id="title">
               {val.title}
             </div>
+            </a>
           </li>
           
         );
@@ -86,7 +120,11 @@ const Sidebar=({children})=> {
       })}
     </ul>
   </div>
-  <main>{children}</main>
+  <main>
+    {/* {change} */}
+    
+     {children} 
+  </main>
 </div>
 
   )
