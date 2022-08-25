@@ -49,7 +49,7 @@ const Sidebar=({children})=> {
   return (
 <div style={{ display: "flex", textAlign: "center" }}>
   <div style={{ width: isOpen ? "250px" : "50px" }} className="Sidebar">
-    <div className="topSection">
+    <div className="topSection text-white">
       <h1 style={{ display: isOpen ? "block" : "none" }} className="logo">
         Logo
       </h1>

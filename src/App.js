@@ -15,14 +15,12 @@ function App() {
 
 <Sidebar>
   
-
-  {/* <!-- intro --> */}
   <div className="container mt-5" id="Home">
     <div className="row justify-center">
       
       <div className="col-12-xs col-9-md">
         
-        <p className="text-gray mb-2"><span className="badge-orange text-white ml-1">new</span> Hi</p>
+        <p className="text-gray mb-2"> Hi</p>
         
         <h2>
           
@@ -39,23 +37,11 @@ function App() {
   </div>
 
 <About/>
-
-  {/* <!-- work section --> */}
    <Experience/>
-   {/* <Work/> */}
  <Project/>
 
-
- 
-
-  <div className='mt-5'>In Progress</div>
-  <hr className='bg-black mb-5'/>
   <Contact/>
-  <hr className='bg-black mb-5'/>
 
-
-<div className='mt-5'>Done! Ignore the Rest</div>
-<hr className='bg-black mb-5'/>
 
 <Footer/>
 

@@ -1,8 +1,24 @@
 export const ProjectData=[
     {
+        title:"Animated Website",
+        tools:[
+            "Sass","React","Firebase"
+        ],
+        link:"/home"
+
+    },
+    {
+        title:"Personal Website",
+        tools:[
+            "Bootstrap","React","Firebase"
+        ],
+        link:"/home"
+
+    },
+    {
         title:"Face Your Food",
         tools:[
-            "Bootstrap","React1","Firebase"
+            "Bootstrap","React","Firebase"
         ],
         link:"/home"
 
@@ -10,7 +26,7 @@ export const ProjectData=[
      {
         title:"CarDoctor",
         tools:[
-            "Bootstrap","React1"
+            "Bootstrap","React"
         ],
         link:"/project"
 
@@ -18,17 +34,17 @@ export const ProjectData=[
         {
         title:"Animated Game",
         tools:[
-            "Vanilla"
+            "Vanillajs"
         ],
         link:"/code"
 
     },
-        {
-        title:"Home4",
+            {
+        title:"Costco Management",
         tools:[
-            "Bootstrap"
+            "C++"
         ],
-        link:"/home4"
+        link:"/code"
 
     },
 

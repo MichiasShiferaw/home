@@ -1,12 +1,15 @@
 import React from 'react';
-import Bootstrap from "../../Assets/bootstrap1.png";
-import Firebase from "../../Assets/firebase.png";
-import React1 from "../../Assets/react.png";
-import Vanilla from "../../Assets/vanillajs.png";
+// import Bootstrap from "../../Assets/bootstrap1.png";
+// import Firebase from "../../Assets/firebase.png";
+// import React1 from "../../Assets/react.png";
+// import Vanilla from "../../Assets/vanillajs.png";
 import { ProjectData } from './ProjectData';
 
 function Work() {
-  // Vanilla.
+  // const bootstrap="bootstrap1.png";
+  // const bootstrap="bootstrap1.png";
+  // const bootstrap="bootstrap1.png";
+  // const vanillajs="bootstrap1.png";
   return (
      <section id="Project" className="mt-2">
     <div className="container">
@@ -28,8 +31,9 @@ function Work() {
               <div className='mr-auto mt-auto text-muted'>
                 {val.tools.map((val1,key1)=>{
                   return(
-                    <img src="./IMG/bootstrap1.png" key={key1} alt={val1} width="32" height="32" title={val1}/>
-                  )
+                    
+                    <img src={`https://MichiasShiferaw.github.io/home/IMG/${val1}.png`} key={key1} alt={val1} width="32" height="32" title={val1}/>
+                    )
                 })}
                               {/* <img src={Bootstrap} alt="Bootstrap" width="32" height="32" title='Bootstrap 5'/>
                 <img src={React1} alt="ReactJs" width="32" height="32" title='ReactJS'/>

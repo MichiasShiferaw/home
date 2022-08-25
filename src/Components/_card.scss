@@ -13,15 +13,58 @@
         font-size: $font-size-xl;
         padding-bottom: $base-padding;
         font-weight: bold;
-        line-height: 5.5vh;
+        line-height: 5.2vh;
     }
 
     .card-body{
         font-size:$base-font-size;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
-        a{
-            text-decoration: underline;
+        .left-side{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin-top: 1rem;
+            margin-left: 3rem;
+            
         }
+
+        .right-side{
+            margin-left: 3rem;
+
+            .input-box{
+                height: 50px;
+                width: 100%;
+                margin: 12px 0;
+
+                input, textarea{
+                    height: 92%;
+                    width: 70%;
+                    border: none;
+                    outline: none;
+                    font-size: 16px;
+                    background: #fff;
+                    border-radius: 6px;
+                    padding: 0 15px;
+                    resize: none;
+                }
+                textarea{
+                    padding-top: 10px;
+                    height: 92%;
+                    min-height: 90px;
+                    
+                }
+            }
+        }
+
+
+        // a{
+        //     text-decoration: underline;
+        // }
     }
 
     .card-footer{
@@ -38,7 +81,7 @@
     .badge1{
         max-inline-size: min-content;
         align-self: center;
-        margin-top: 2px;
+        margin-top: 0.5rem;
     }
 
     hr.border{
@@ -51,30 +94,6 @@
         flex-direction: column;
 
     }
-    .symbol::after{
-        // content: "";
-        // position: absolute;
-        // display: block;
-        // border-top: 310px solid red;
-        // width: 3px;
-        // margin: -49px 0px 0px -6px;
-        // // position: absolute;
-        // width: 1px;
-        // background-color: #FF4C60;
-        // top: 3rem;
-        // // bottom: 30px;
-        // left: 34px;
-
-    }
-
-        // .verticalLine {
-        //     position: absolute;
-        //     width: 1px;
-        //     background-color: #FF4C60;
-        //     top: 3rem;
-        //     bottom: 30px;
-        //     left: 34px;
-        // }
 
     
 
