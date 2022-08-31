@@ -77,13 +77,12 @@ const Sidebar=({children})=> {
                   src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/Pacman.png`}
                   width="25"
                   height="25"
-                  // id="arrow"
+
                 />
               )}
             </button>
           </div>
           <hr className="bg-danger border-2 border-top border-danger" />
-          {/* <hr /> */}
         </div>
         <hr />
         <div>
@@ -91,7 +90,6 @@ const Sidebar=({children})=> {
           <h2
             style={{
               display: isOpen ? "block" : "none",
-              // textDecoration: "underline",
             }}
             className="h2 name pt-1 mb-2 text-wrap text-white"
           >
@@ -106,8 +104,6 @@ const Sidebar=({children})=> {
                 key={key}
                 id={activeId === val.title ? "active" : ""}
                 onClick={() => tester(val.title)}
-                // console.log(val.link);
-                // }}
               >
                 <a className="row" href={`#${val.title}`}>
                   <div id="icon">{val.icon}</div>
@@ -143,7 +139,6 @@ const Sidebar=({children})=> {
         </ul>
       </div>
       <main>
-        {/* {change} */}
 
         {children}
       </main>

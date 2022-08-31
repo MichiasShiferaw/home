@@ -1,11 +1,11 @@
 import './App.css';
-import Modal from './Components/Modal/modal';
+
 import Sidebar from './Components/Sidebar1/Sidebar';
 import { ProfileInfo } from './Components/Sidebar1/SidebarData';
 import logo from './Portrait1.png';
 import About from './Components/About/About';
 import Experience from './Components/Experience/Experience';
-// import Work from './Components/SchoolWork/WorkData';
+
 import Project from './Components/Project/Project';
 import Footer from './Components/Footer/Footer';
 import Contact from './Components/Contact/Contact';
@@ -52,7 +52,7 @@ function App() {
               </a>
             </div>
             <div id="mylogo1" className="col-12-xs col- col-3-md ">
-              <img src={logo} alt="" />
+              <img src={logo} alt="Logo" />
             </div>
           </div>
         </div>

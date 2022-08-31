@@ -6,7 +6,6 @@ function Footer() {
     <>
       <footer className="bg-gray-light-7 justify-between pt-2 mt-4">
         <div className="footer container mt-2 mb-2">
-          {/* copyright 2022 Michias Shiferaw */}
           <div>
             <span className="site-title">Logo </span>
             <span className="site-title">Michias Shiferaw</span>

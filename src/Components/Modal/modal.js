@@ -7,8 +7,8 @@ function Modal() {
             <p className='message'>Loo kat this fancy pop-up
             </p>
             <div className='options'>   
-                <button className='btn1'>Yes</button>
-                <button className='btn1'>No</button>
+                <button className='btn1'>Test1</button>
+                <button className='btn1'>Test2</button>
             </div>
         </div>    
     </div>
