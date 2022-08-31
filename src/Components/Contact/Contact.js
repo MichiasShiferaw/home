@@ -27,7 +27,7 @@ const Contact=()=> {
 
 <div className="card">
   
-  <div className="card-body">
+  <div className="card-body text-white">
     <div className="left-side">
         <img src={logo}/>
         <div className="email-address details">
@@ -39,9 +39,9 @@ const Contact=()=> {
         </div>
       </div>
       <div className="right-side">
-        <h1 className='card-title' style={{lineHeight:0, paddingTop:"2rem"}}>Get In Touch</h1>
+        <h1 className='card-title text-pacman mb-1' style={{lineHeight:0, paddingTop:"2rem"}}>Get In Touch</h1>
         <h4 className="topic-text">Let's talk about everything!</h4>
-        <p> If you have any work from me or any types of queries, you can send me message from here!</p>
+        <small> If you have any work from me or any types of queries, you can send me message from here!</small>
       <form onSubmit={formSubmit} ref={form}>
         <div className="input-box">
           <input type="text" placeholder="Enter your name" id="name"/>
@@ -53,7 +53,7 @@ const Contact=()=> {
             <textarea name='message' id="message" placeholder="Add a message here" cols={60} rows={8}></textarea>
             </div>
              {/* <button  value="Send" className="btn btn-complement-primary mt-1">Send Message</button>  */}
-             <a role="button" type="submit" value="Send" className="btn btn-complement-primary mt-4" >Send Message</a>
+             <a role="button" type="submit" value="Send" className="btn btn-complement-pacman mt-4" >Send Message</a>
             </form>
             </div>
     <div className="input-box">

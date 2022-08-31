@@ -23,37 +23,69 @@ function About() {
   }
 
     return (
-
-  <section id="about" className="mt-5 pt-2 pb-2">
-    <div className="container bg-secondary-light-8">
-      
-    <div className='row'>
-      <div className='col-3-md'>
-        <img src={logo}  className="logo2" alt="Michias" />
-
-      </div>
-      <div className='col-9-md'>
-        <div className='p-3'>
-          <h2 className="mb-2">About Me!</h2>
-          <p>
-           {message}I am Michias Shiferaw, web developer from Ottawa, Canada. I am Ethiopian.
-            I love 
-            I do mybest to improvemy skills
-
-          </p>
-          <a href={`https://MichiasShiferaw.github.io/home/extra/Michias_Shiferaw_Resume.pdf`} download={`https://MichiasShiferaw.github.io/home/extra/Michias_Shiferaw_Resume.pdf`} className="btn btn-outlined-primary mt-4" rel="noreferrer" target="_blank"> Download CV
-                      {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" className="navbar-nav-svg" viewBox="0 0 512 499.36" role="img"><title>GitHub</title><path fill="currentColor" fillRule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path></svg> */}
-                    </a>
+      <section id="about" className="mt-5 pt-2 pb-2">
+        <div className="row justify-content-between">
+          <div className="col-3-md"></div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="50"
+            height="50"
+            fill="currentColor"
+            className="bi bi-arrow-return-right"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fillRule="evenodd"
+              d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"
+            />
+          </svg>
+          <div className="col-md"></div>
         </div>
-      </div>
-    </div>
-    {/* <div className="container bg-secondary-light-8"> */}
-      {/* <h2 className="mb-2">About Me!</h2>
+        <div className="container bg-secondary-light-8">
+          <div className="row">
+            <div className="col-3-md">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="100"
+                height="100"
+                fill="currentColor"
+                className="bi bi-arrow-return-right"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"
+                />
+              </svg>
+            </div>
+            <div className="col-9-md">
+              <div className="p-3">
+                <h2 className="mb-2">About Me!</h2>
+                <p>
+                  {message}I am Michias Shiferaw, web developer from Ottawa,
+                  Canada. I am Ethiopian. I love I do mybest to improvemy skills
+                </p>
+                <a
+                  href={`https://MichiasShiferaw.github.io/home/extra/Michias_Shiferaw_Resume.pdf`}
+                  download={`https://MichiasShiferaw.github.io/home/extra/Michias_Shiferaw_Resume.pdf`}
+                  className="btn btn-outlined-primary mt-4"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  {" "}
+                  Download CV
+                  {/* <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" className="navbar-nav-svg" viewBox="0 0 512 499.36" role="img"><title>GitHub</title><path fill="currentColor" fillRule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path></svg> */}
+                </a>
+              </div>
+            </div>
+          </div>
+          {/* <div className="container bg-secondary-light-8"> */}
+          {/* <h2 className="mb-2">About Me!</h2>
       <p>{message}</p> */}
-      {/* <p className="mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nam, corrupti dolorum inventore perspiciatis id illum repellat iste amet sapiente ducimus nihil molestias quasi, totam, ratione minima molestiae blanditiis iure consequatur praesentium debitis. Nulla maiores doloremque tempore nobis dolorum amet!</p> */}
-    </div>
-  </section>
-  )
+          {/* <p className="mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nam, corrupti dolorum inventore perspiciatis id illum repellat iste amet sapiente ducimus nihil molestias quasi, totam, ratione minima molestiae blanditiis iure consequatur praesentium debitis. Nulla maiores doloremque tempore nobis dolorum amet!</p> */}
+        </div>
+      </section>
+    );
 }
 
 export default About
