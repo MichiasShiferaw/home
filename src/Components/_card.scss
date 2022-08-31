@@ -7,10 +7,11 @@ $glowing-color:#0A00FB;
     padding: $base-padding;
     border: $base-border-thickness*3 double #3f51b5 ;
     box-shadow: $base-box-shadow;
+    background-color: white;
     border-radius: math.div($base-border-radius, 4);
     min-height: 100%;
     flex-direction: column;
-    animation: glow 1.5s ease-in-out infinite alternate;
+    // animation: glow 1.5s ease-in-out infinite alternate;
     .card-title{
         font-size: $font-size-xl;
         padding-bottom: $base-padding;
