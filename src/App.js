@@ -13,20 +13,6 @@ function App() {
   return (
     <div className="App">
       <Sidebar>
-        <div id="yourdiv0">
-          {/* <img
-            src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/pacman4.png`}
-            id="yourdiv"
-          /> */}
-          {/* <img
-            src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/pacman3.png`}
-            id="yourdiv2"
-          /> */}
-          <img
-            src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/pacman1.png`}
-            id="yourdiv3"
-          />
-        </div>
         <div className="container mt-5" id="Home">
           <img
             src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/pacman4.png`}
@@ -35,6 +21,15 @@ function App() {
           <img
             src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/pacman3.png`}
             id="yourdiv2"
+          />
+          <img
+            src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/pacman1.png`}
+            id="yourdiv3"
+          />
+
+          <img
+            src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/pacman2.png`}
+            id="yourdiv4"
           />
           <div className="row justify-center">
             <div className="col-12-xs col-9-md">

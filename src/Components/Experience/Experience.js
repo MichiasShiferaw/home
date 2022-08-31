@@ -53,7 +53,7 @@ function School() {
 
               <div className="vr"></div>
             </div>
-            {/* </div> */}
+
           </div>
           <div className="col-12-md col-6-lg">
             <h1 className="text-pacman pb-2">Experience...</h1>
@@ -91,7 +91,7 @@ function School() {
 
               <div className="vr"></div>
             </div>
-            {/* </div> */}
+
           </div>
         </div>
       </div>

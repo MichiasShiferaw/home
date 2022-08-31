@@ -26,42 +26,21 @@ function About() {
       <section id="about" className="mt-5 pt-2 pb-2">
         <div className="row justify-content-between">
           <div className="col-3-md"></div>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="50"
-            height="50"
-            fill="currentColor"
-            className="bi bi-arrow-return-right"
-            viewBox="0 0 16 16"
-          >
-            <path
-              fillRule="evenodd"
-              d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"
-            />
-          </svg>
+
           <div className="col-md"></div>
         </div>
-        <div className="container bg-secondary-light-8">
+        <div className="container bg-warning-light-8 ">
           <div className="row">
             <div className="col-3-md">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="100"
-                height="100"
-                fill="currentColor"
-                className="bi bi-arrow-return-right"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M1.5 1.5A.5.5 0 0 0 1 2v4.8a2.5 2.5 0 0 0 2.5 2.5h9.793l-3.347 3.346a.5.5 0 0 0 .708.708l4.2-4.2a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 8.3H3.5A1.5 1.5 0 0 1 2 6.8V2a.5.5 0 0 0-.5-.5z"
-                />
-              </svg>
+              <img
+                src={`https://MichiasShiferaw.github.io/home/IMG/Pacman/Arrow.png`}
+                 id="arrow"
+              />
             </div>
             <div className="col-9-md">
               <div className="p-3">
-                <h2 className="mb-2">About Me!</h2>
-                <p>
+                <h2 className="mb-2 text-pacman">About Me!...</h2>
+                <p className="text-white">
                   {message}I am Michias Shiferaw, web developer from Ottawa,
                   Canada. I am Ethiopian. I love I do mybest to improvemy skills
                 </p>
@@ -79,10 +58,6 @@ function About() {
               </div>
             </div>
           </div>
-          {/* <div className="container bg-secondary-light-8"> */}
-          {/* <h2 className="mb-2">About Me!</h2>
-      <p>{message}</p> */}
-          {/* <p className="mt-1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta nam, corrupti dolorum inventore perspiciatis id illum repellat iste amet sapiente ducimus nihil molestias quasi, totam, ratione minima molestiae blanditiis iure consequatur praesentium debitis. Nulla maiores doloremque tempore nobis dolorum amet!</p> */}
         </div>
       </section>
     );

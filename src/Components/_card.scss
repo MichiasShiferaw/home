@@ -1,6 +1,6 @@
 // for math aspects
 @use 'sass:math';
-
+$glowing-color:#0A00FB;
 
 .card{
     display: flex;
@@ -115,13 +115,13 @@
 
 @keyframes glow {
     from {
-        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #3f51b5,
-            0 0 35px #3f51b5, 0 0 40px #3f51b5, 0 0 50px #3f51b5, 0 0 75px #3f51b5;
+        box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px $glowing-color,
+            0 0 35px $glowing-color, 0 0 40px $glowing-color, 0 0 50px $glowing-color, 0 0 75px $glowing-color;
     }
 
     to {
-        box-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px #3f51b5,
-            0 0 17.5px #3f51b5, 0 0 20px #3f51b5, 0 0 25px #3f51b5, 0 0 37.5px #3f51b5;
+        box-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 7.5px #fff, 0 0 10px $glowing-color,
+            0 0 17.5px $glowing-color, 0 0 20px $glowing-color, 0 0 25px $glowing-color, 0 0 37.5px $glowing-color;
     }
 }
 

@@ -52,8 +52,7 @@ const Contact=()=> {
         <div className="input-box message-box">
             <textarea name='message' id="message" placeholder="Add a message here" cols={60} rows={8}></textarea>
             </div>
-             {/* <button  value="Send" className="btn btn-complement-primary mt-1">Send Message</button>  */}
-             <a role="button" type="submit" value="Send" className="btn btn-complement-pacman mt-4" >Send Message</a>
+             <a role="button" type="submit" value="Send" className="btn btn-complement-pacpink mt-4" >Send Message</a>
             </form>
             </div>
     <div className="input-box">
